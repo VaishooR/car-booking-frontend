@@ -1,0 +1,16 @@
+.homescreen{
+    width:100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 30px;
+}
+
+.homescreen-cars{
+    width:100vw;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap-reverse;
+    padding: 30px 30px;
+}

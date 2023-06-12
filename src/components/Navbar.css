@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&family=Montserrat:wght@100&family=Poppins:wght@100;200;500;600;700&family=Raleway&family=Roboto+Mono:ital,wght@1,300&family=Roboto:wght@100;300;400;500;700;900&family=Rubik:wght@300&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;700&family=Montserrat:wght@100&family=Poppins:wght@100;200;500;600;700&family=Raleway&family=Roboto+Mono:ital,wght@1,300&family=Roboto:wght@100;300;400;500;700;900&family=Rubik:wght@300&display=swap');
+
+  .navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width:100vw;
+    height:55px;
+    padding: 0px 60px;
+    /* background:linear-gradient(navy 80%,gold 20% ); */
+    background-color: #201D54;
+    color:white;
+    font-family: 'Raleway', sans-serif;
+}
+.navbar img{
+    width:100px;
+    height:50px;
+}
+
+.dropdown-toggle{
+  font-size: 20px;
+  color:gold;
+}
+.dropdown-menu{
+  background-color:#201D54;
+}
+.dropdown-item{
+  color:gold;
+}
+.dropdown-item:hover{
+  color:#201D54;
+  background-color: goldenrod;
+  border-radius: 10px;
+}

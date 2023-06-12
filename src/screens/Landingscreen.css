@@ -1,0 +1,85 @@
+  @import url('https://fonts.googleapis.com/css2?family=Inspiration&family=Montserrat:wght@100&family=Poppins:wght@500;600;700&family=Raleway&family=Roboto+Mono:ital,wght@1,300&family=Roboto:wght@100;300;400;500;700;900&family=Rubik:wght@300&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Inspiration&family=Montserrat:wght@100&family=Poppins:wght@100;200;500;600;700&family=Raleway&family=Roboto+Mono:ital,wght@1,300&family=Roboto:wght@100;300;400;500;700;900&family=Rubik:wght@300&display=swap');
+
+.landing-screen{
+    display:flex;
+    width:100vw;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 90px;
+    overflow-x:hidden !important;
+}
+.landing-left{
+    flex:0.43;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    color:#201D54;
+}
+.landing-line1{
+    text-transform: uppercase;
+    font-size: 22px;
+    margin-bottom: 10px;
+
+}
+.landing-line2{
+    text-transform: uppercase;
+    font-size: 50px;
+}
+.landing-line3{
+    text-transform: uppercase;
+    font-size: 50px;
+}
+.landing-line4{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    color:grey;
+    font-size: 15px;
+    color: goldenrod;
+}
+.plan-wheels{
+    border: 1px solid #201D54;
+    background-color:#201D54 ;
+    color: white;
+    padding: 5px 20px;
+    cursor: pointer;
+}
+.plan-wheels:hover{
+    transform: scale(0.95);
+}
+
+
+
+
+
+
+
+.landing-right{
+    flex:0.57;
+    height:90vh;
+    overflow-x: hidden;
+    /* background: linear-gradient(to right,#201D54,#2337AE); */ 
+}
+.landing-right img{
+    width:100%;  
+    overflow-x: hidden !important;
+}
+.landing-bgimage{
+    overflow-x: hidden;
+    /* border-top-left-radius: 10px; */
+    border-bottom-left-radius: 300px;
+    /* border-bottom-right-radius: 300px; */
+}
+.landing-carimage {
+    position: absolute;
+    top:220px;
+    right:-160px;
+    width:75%;
+    transform: scale(0.85);
+}
+.landing-carimage:hover {
+    transform:scale(0.88);
+    transition: 0.5s all linear;
+}
+
+  

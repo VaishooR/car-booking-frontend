@@ -1,0 +1,48 @@
+.loginscreen{
+    width:100vw;
+    height:92vh;
+    display:flex;
+    justify-content:center;
+    background-color: gainsboro;
+    background: url("../../public/assets/bg3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.login-form{
+    width:25vw;
+    background-color: white;
+    height:50%;
+    margin-top: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    padding: 0px 30px;
+}
+.form-control{
+    margin: 10px 20px;
+}
+.login-form input::placeholder{
+    color:rgb(157, 156, 156);
+}
+.login-title{
+    font-size: 22px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color:navy;
+}
+.login-btn{
+    background-color:navy;
+    color:white;
+    border:1px solid navy;
+    margin-top:20px;
+    padding: 3px 30px;
+    border-radius:5px;
+    cursor: pointer;
+    
+}
+.login-btn:hover{
+    transform: scale(0.95);
+}

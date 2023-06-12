@@ -1,0 +1,49 @@
+.eachcar-card{
+    height: 330px;
+    display: flex;
+    flex-direction: column;
+    margin:15px 30px;
+    width:23vw;
+    border:1px solid gainsboro;
+    border-radius: 10px;
+}
+.eachcar-card img{
+    width:350px;
+    height: 200px;
+}
+.car-details{
+    text-align:center;
+    padding: 5px 15px;
+    color:rgb(35, 35, 117);
+    color:rgb(28, 28, 158);
+
+}
+.viewdetails,.booknow{
+    cursor: pointer;
+    border: none;
+    background-color:rgb(8, 8, 88);
+    color:white;
+    padding: 1px 15px;
+    border-radius: 5px;
+}
+.viewdetails:hover{transform: scale(0.97)}
+.booknow:hover{transform: scale(0.97)}
+
+.fulldetails{
+    /* margin-top: 30px; */
+    justify-content: space-between;
+    font-size:20px;
+    color:rgb(53, 53, 147);
+    color:navy;
+    padding: 0px 50px;
+    font-weight: bold;
+    align-items: stretch;
+}
+.notbook{
+    background-color:gainsboro;
+    border: 1px solid grey;
+    border: none;
+    color:grey;
+    padding: 1px 15px;
+    border-radius: 5px;
+}

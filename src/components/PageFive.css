@@ -1,0 +1,16 @@
+  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;700&family=Montserrat:wght@300&family=Poppins:wght@100;200;500;600;700&family=Raleway&family=Roboto+Mono:ital,wght@1,300&family=Roboto:wght@100;300;400;500;700;900&family=Rubik:wght@300&display=swap');
+
+  .page-five{
+    font-family: 'Montserrat', sans-serif;
+    height:50vh;
+    margin-top: 60px;
+    padding-top: 50px;
+    color: white ;
+    background-color:#201D54 ;
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 70px 140px;
+    cursor: pointer;
+    font-family:'Courier New', Courier, monospace;
+}
